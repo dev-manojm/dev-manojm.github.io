@@ -110,20 +110,16 @@
     } catch { /* keep the safe fallback */ }
   }
 
-  function configureWorkspace() {
-    const url = String(window.PORTFOLIO_CONFIG?.privateWorkspaceUrl || "").trim();
+  function configureLogin() {
+    const url = String(window.PORTFOLIO_CONFIG?.loginUrl || "").trim();
     if (!url) return;
     try {
       const destination = new URL(url);
       if (destination.protocol !== "https:" || destination.username || destination.password || destination.port) return;
-      [$("#workspace-link"), $("#workspace-cta")].forEach(link => {
-        link.href = destination.href;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.removeAttribute("aria-disabled");
-        link.classList.remove("is-disabled");
-      });
-      $("#workspace-note").textContent = "Sign-in opens on the private Oracle service. This portfolio never asks for your password.";
+      const loginLink = $("#login-link");
+      loginLink.href = destination.href;
+      loginLink.removeAttribute("aria-disabled");
+      loginLink.removeAttribute("tabindex");
     } catch { /* keep the sign-in disabled until a valid HTTPS URL is configured */ }
   }
 
@@ -169,7 +165,7 @@
         menuButton.setAttribute("aria-label", "Open menu");
       }
     });
-    configureWorkspace();
+    configureLogin();
 
     try {
       const response = await fetch("portfolio-data.json", { cache: "no-cache", credentials: "omit" });
