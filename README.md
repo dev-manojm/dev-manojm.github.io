@@ -12,4 +12,4 @@ In GitHub, open **Settings → Pages** and set **Build and deployment → Source
 
 Edit `portfolio-data.json` with reviewed, public-safe information. Keep the private master profile, resumes, direct contact details, source documents, job-search history, app data, `.env` files, and keys out of this repository. Run `python verify_public_data.py` before committing a profile-data change.
 
-The private-workspace link stays disabled until an authenticated HTTPS URL is configured in `portfolio-config.js`.
+The small **Login** option stays inactive until an HTTPS login URL is configured in `portfolio-config.js`. The login and private dashboard should live in the separate job-hunt application, not as a section of this public portfolio.

@@ -1,3 +1,3 @@
-// Set this to the HTTPS URL of the authenticated Oracle dashboard after deployment.
-// This file contains no credentials; authentication stays on the Oracle app.
-window.PORTFOLIO_CONFIG = Object.freeze({ privateWorkspaceUrl: "" });
+// Set the HTTPS login URL after the private dashboard is deployed.
+// Leave blank to keep the public site's Login option inactive.
+window.PORTFOLIO_CONFIG = Object.freeze({ loginUrl: "" });
