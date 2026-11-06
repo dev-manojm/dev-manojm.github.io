@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*master*profile*.json
+*resume*.pdf
+*resume*.docx
+*.sqlite
+*.sqlite3
+*.db
+private/
+data/
+outputs/
+secrets/
