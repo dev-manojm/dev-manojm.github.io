@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "name": "Manoj More",
+  "headline": "Senior Data / Platform Engineer | Cloud Data Platforms",
+  "location": "Bengaluru, India",
+  "summary": "Builds reliable cloud data platforms, reusable pipelines, and governed analytics. Work spans data integration, modeling, DataOps, and self-service reporting.",
+  "years_experience": "6+",
+  "cloud_platforms": [
+    "Google Cloud Platform (GCP)",
+    "Amazon Web Services (AWS)",
+    "Azure Service Bus"
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/manoj-more/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/dev-manojm"
+    }
+  ],
+  "experience": [
+    {
+      "employer": "Swedium Global Services",
+      "start_date": "2025-03",
+      "end_date": "present",
+      "title": "Senior Data Engineer"
+    },
+    {
+      "employer": "Uplight",
+      "start_date": "2024-03",
+      "end_date": "2025-03",
+      "title": "Software Engineer, Data and BI"
+    },
+    {
+      "employer": "UST",
+      "start_date": "2020-08",
+      "end_date": "2024-02",
+      "title": "Engineering Roles, Product Engineering",
+      "positions": [
+        {
+          "title": "Trainee Engineer",
+          "start_date": "2020-08",
+          "end_date": "2021-02"
+        },
+        {
+          "title": "Associate Software Engineering",
+          "start_date": "2021-03",
+          "end_date": "2022-10"
+        },
+        {
+          "title": "Software Engineer",
+          "start_date": "2022-10",
+          "end_date": "2024-02"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Customer 360 and Golden Customer Record",
+      "summary": "Unified customer identity, interaction and consent data into a governed analytics platform.",
+      "technologies": [
+        "BigQuery",
+        "dbt",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Enterprise BigQuery Cloud DLP Framework",
+      "summary": "Automated Cloud DLP scans, findings persistence and remediation tracking across GCP projects.",
+      "technologies": [
+        "Python",
+        "BigQuery"
+      ]
+    },
+    {
+      "title": "Cloud Cost Reporting and FinOps Tooling",
+      "summary": "Built resource-level cloud cost reporting and reusable FinOps workflows.",
+      "technologies": [
+        "Power BI"
+      ]
+    },
+    {
+      "title": "AWS to GCP Data Platform Migration",
+      "summary": "Built reusable workflows for migrating data workloads across AWS and GCP.",
+      "technologies": [
+        "Dataflow",
+        "Pub/Sub",
+        "BigQuery",
+        "Terraform"
+      ]
+    },
+    {
+      "title": "BigQuery Monitoring and Usage Analysis",
+      "summary": "Automated BigQuery query monitoring to help teams identify optimization opportunities.",
+      "technologies": [
+        "BigQuery",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Data Quality and Pipeline Operations Automation",
+      "summary": "Improved data pipeline operations with quality checks, alerting and reprocessing support.",
+      "technologies": [
+        "Python",
+        "Terraform"
+      ]
+    }
+  ],
+  "skills": [
+    "Google Cloud Platform (GCP)",
+    "Amazon Web Services (AWS)",
+    "Azure Service Bus",
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "Apache Kafka",
+    "Pub/Sub",
+    "Dataflow",
+    "dbt",
+    "Apache Airflow",
+    "Matillion ETL",
+    "Python",
+    "SQL",
+    "PySpark",
+    "Terraform",
+    "Change Data Capture (CDC)",
+    "Data modeling",
+    "Data quality",
+    "Power BI",
+    "Tableau",
+    "Looker",
+    "Sigma BI"
+  ],
+  "achievements": [
+    {
+      "title": "Uplight Hackathon Winner"
+    },
+    {
+      "title": "Developer of the Year",
+      "date": "2022"
+    },
+    {
+      "title": "BigQuery Query Cost Reduction",
+      "detail": "Reduced BigQuery query costs by 25%."
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor of Engineering (B.E.) in Electronics and Telecommunication Engineering",
+      "institution": "Deogiri Institute of Engineering and Management Studies",
+      "start_date": "2016-08",
+      "end_date": "2020-12",
+      "gpa": 8.4
+    },
+    {
+      "title": "All India Senior School Certificate Examination (AISSCE), Science",
+      "institution": "Kendriya Vidyalaya Aurangabad / Aurangabad Cantt.",
+      "start_date": "2015-05",
+      "end_date": "2016-07"
+    }
+  ],
+  "certifications": [
+    "dbt Fundamentals",
+    "Unconscious Bias"
+  ]
+}
